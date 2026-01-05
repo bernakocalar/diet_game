@@ -27,6 +27,7 @@ public class ShopSystem : MonoBehaviour
         }
         else
         {
+            gameObject.SetActive(false);
             Destroy(gameObject);
         }
 

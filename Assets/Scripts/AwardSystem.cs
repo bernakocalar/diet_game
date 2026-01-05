@@ -6,6 +6,7 @@ public class AwardSystem : MonoBehaviour
 {
     public static AwardSystem Instance { get; private set; }
 
+
     [System.Serializable]
     public class Award
     {
@@ -30,6 +31,7 @@ public class AwardSystem : MonoBehaviour
         }
         else
         {
+            gameObject.SetActive(false);
             Destroy(gameObject);
         }
 

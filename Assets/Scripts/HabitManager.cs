@@ -19,6 +19,7 @@ public class HabitManager : MonoBehaviour
         }
         else
         {
+            gameObject.SetActive(false);
             Destroy(gameObject);
         }
     }

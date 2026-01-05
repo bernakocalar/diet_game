@@ -18,6 +18,7 @@ public class CurrencyManager : MonoBehaviour
         }
         else
         {
+            gameObject.SetActive(false);
             Destroy(gameObject);
         }
     }

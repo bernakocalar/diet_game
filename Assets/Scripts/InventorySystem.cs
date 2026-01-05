@@ -16,6 +16,7 @@ public class InventorySystem : MonoBehaviour
         }
         else
         {
+            gameObject.SetActive(false);
             Destroy(gameObject);
         }
     }
